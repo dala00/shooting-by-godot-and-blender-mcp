@@ -1,5 +1,7 @@
 # Space Shooter (Godot × Blender MCP / AIサンプル)
 
+![スクリーンショット](resources/screenshot.png)
+
 奥にある地球へ向かって進む、1ステージのオンレール宇宙シューティングです。
 
 > **このプロジェクトについて**
