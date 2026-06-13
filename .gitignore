@@ -1,0 +1,9 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+
+# AI 3D-asset pipeline (heavy, regenerable)
+ai_tools/.venv/
+ai_tools/TripoSR/
+ai_tools/output/
+ai_tools/*.png
