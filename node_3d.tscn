@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" path="res://orbit_camera.gd" id="1_orbit"]
 [ext_resource type="Shader" path="res://star_sky.gdshader" id="2_sky"]
-[ext_resource type="PackedScene" path="res://models/ship.glb" id="3_ship"]
+[ext_resource type="PackedScene" path="res://models/ship_lowpoly.glb" id="3_ship"]
 
 [sub_resource type="Gradient" id="Gradient_planet"]
 offsets = PackedFloat32Array(0, 0.45, 0.5, 0.65, 1)
@@ -63,7 +63,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2, 0)
 mesh = SubResource("SphereMesh_planet")
 
 [node name="Ship" parent="." instance=ExtResource("3_ship")]
-transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 2, 2.5)
+transform = Transform3D(1.2, 0, 0, 0, 1.2, 0, 0, 0, 1.2, 0, 2, 2.5)
 
 [node name="Camera3D" type="Camera3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 0.939693, 0.342020, 0, -0.342020, 0.939693, 0, 3.5, 7)
